@@ -1,0 +1,29 @@
+{
+  "name": "pinterest-desktop",
+  "productName": "Pinterest Desktop",
+  "version": "0.1.0",
+  "description": "Pinterest website wrapped as a native macOS app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.yourname.pinterestdesktop",
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "build/icon.icns"
+    },
+    "files": [
+      "**/*"
+    ]
+  },
+  "author": "you",
+  "devDependencies": {
+    "electron": "^26.6.10",
+    "electron-builder": "^24.13.3"
+  }
+}
