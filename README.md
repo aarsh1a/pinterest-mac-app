@@ -6,7 +6,7 @@ this is a simple electron wrapper around the official pinterest website.
 to use it, just download and install the dmg file.
 
 > [!IMPORTANT]
-> We don't have an Apple Developer account yet. The application will show a popup on first launch that the app is from an unidentified developer.
+> The application will show a popup on first launch that the app is from an unidentified developer.
 > 1. Click **OK** to close the popup.
 > 2. Open **System Settings** > **Privacy & Security**.
 > 3. Scroll down and click **Open Anyway** next to the warning about the app.
